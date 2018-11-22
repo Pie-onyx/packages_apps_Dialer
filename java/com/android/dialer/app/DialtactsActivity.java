@@ -846,7 +846,7 @@ public class DialtactsActivity extends TransactionSafeActivity
                 IntentProvider provider = IntentProvider.getSendSmsIntentProvider(number);
                 startActivity(provider.getClickIntent(this));
             })
-            .setActionTextColor(getResources().getColor(R.color.dialer_snackbar_action_text_color))
+            .setActionTextColor(getResources().getColor(R.color.dialer_snackbar_text_color))
             .show();
       }
     } else if (requestCode == ActivityRequestCodes.DIALTACTS_DUO) {

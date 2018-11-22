@@ -310,7 +310,7 @@ public class CallLogActivity extends TransactionSafeActivity implements
                 IntentProvider provider = IntentProvider.getSendSmsIntentProvider(number);
                 startActivity(provider.getClickIntent(this));
             })
-            .setActionTextColor(getResources().getColor(R.color.dialer_snackbar_action_text_color))
+            .setActionTextColor(getResources().getColor(R.color.dialer_snackbar_text_color))
             .show();
       }
     }

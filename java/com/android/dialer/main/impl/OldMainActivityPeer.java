@@ -495,7 +495,7 @@ public class OldMainActivityPeer implements MainActivityPeer, FragmentUtilListen
                 v -> mainActivity.startActivity(
                     IntentProvider.getSendSmsIntentProvider(number).getClickIntent(mainActivity)))
             .setActionTextColor(
-                ContextCompat.getColor(mainActivity, R.color.dialer_snackbar_action_text_color))
+                ContextCompat.getColor(mainActivity, R.color.dialer_snackbar_text_color))
             .show();
       }
 
